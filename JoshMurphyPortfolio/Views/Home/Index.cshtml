@@ -1,0 +1,178 @@
+@{
+    ViewData["Title"] = "Josh Murphy — IT Web Programmer";
+}
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark px-4 sticky-top shadow-sm">
+    <a class="navbar-brand fw-bold" href="#">Josh Murphy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto gap-2">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero -->
+<div class="bg-primary text-white py-5 position-relative overflow-hidden">
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-image: linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px); background-size: 60px 60px;"></div>
+    <div class="container py-5 text-center position-relative">
+        <span class="badge bg-light text-primary fw-semibold mb-4 px-3 py-2 fs-6">IT Web Programmer</span>
+        <h1 class="display-2 fw-bold mb-3">Josh Murphy</h1>
+        <p class="lead text-white-50 mb-5 mx-auto" style="max-width:580px;">
+            Building clean, functional web applications with a passion for great user experiences.
+        </p>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+            <a href="#projects" class="btn btn-light btn-lg px-4 fw-semibold">View My Work</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg px-4">Get In Touch</a>
+        </div>
+    </div>
+</div>
+
+<!-- About -->
+<div class="bg-white py-5" id="about">
+    <div class="container py-4">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-4 text-center d-none d-lg-block">
+                <span class="display-1 fw-bold text-primary opacity-25" style="font-family: 'Bebas Neue', sans-serif; font-size: 12rem; letter-spacing: 0.1em;">JM</span>
+            </div>
+            <div class="col-lg-8">
+                <p class="text-primary text-uppercase fw-bold small mb-2">About Me</p>
+                <h2 class="display-5 fw-bold mb-4">IT Web Programmer</h2>
+                <p class="text-muted fs-5 mb-3">
+                    I'm a second-year IT Web Programming student at NSCC,
+                    building a strong foundation in full-stack development and always eager to expand what I know.
+                </p>
+                <p class="text-muted fs-5 mb-3">
+                    I'm driven by curiosity, like learning new frameworks, working through tricky problems,
+                    or improving how I write code. I enjoy taking an idea and turning it into something real.
+                </p>
+                <p class="text-muted fs-5 mb-0">
+                    Outside of coding, I'm usually playing games — everything from fast-paced FPS games to story-driven
+                    adventures and indie games. Gaming is how I unwind and stay inspired, and it's a big part of what keeps me balanced.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Skills -->
+<div class="bg-light py-5" id="skills">
+    <div class="container py-4">
+        <p class="text-primary text-uppercase fw-bold small mb-2">What I Work With</p>
+        <h2 class="display-5 fw-bold mb-5">Skills & Technologies</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-4">
+                        <h4 class="fw-bold mb-2">Frontend</h4>
+                        <p class="text-muted mb-0">HTML5, CSS, JavaScript, React, Bootstrap, Tailwind</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-4">
+                        <h4 class="fw-bold mb-2">Backend</h4>
+                        <p class="text-muted mb-0">C#, ASP.NET Core, Entity Framework, SQL Server, REST APIs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-4">
+                        <h4 class="fw-bold mb-2">Tools & Cloud</h4>
+                        <p class="text-muted mb-0">Git, Docker, VS Code, Lua</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Projects -->
+<div class="bg-white py-5" id="projects">
+    <div class="container py-4">
+        <p class="text-primary text-uppercase fw-bold small mb-2">My Work</p>
+        <h2 class="display-5 fw-bold mb-5">Projects</h2>
+        <div class="row g-4 justify-content-center">
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <img src="~/images/project1.png" class="card-img-top" alt="Product Review Page"
+                         style="cursor:pointer; height:180px; object-fit:cover;"
+                         data-bs-toggle="modal" data-bs-target="#modal1">
+                    <div class="card-body p-4">
+                        <h5 class="fw-bold mb-2">Product Review Page</h5>
+                        <p class="text-muted small mb-3">A product review web app where users can browse products, leave star ratings and comments, and view other reviews.</p>
+                        <div class="mb-0">
+                            <span class="badge bg-primary me-1">C#</span>
+                            <span class="badge bg-secondary">ASP.NET Core</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <img src="~/images/project2.png" class="card-img-top" alt="Gold Clicker Game"
+                         style="cursor:pointer; height:180px; object-fit:cover;"
+                         data-bs-toggle="modal" data-bs-target="#modal2">
+                    <div class="card-body p-4">
+                        <h5 class="fw-bold mb-2">Gold Clicker Game</h5>
+                        <p class="text-muted small mb-3">A clicker game where you mine gold and spend it on upgrades like Auto Miners and Gold Carts to increase your gold per second.</p>
+                        <div class="mb-0">
+                            <span class="badge bg-warning text-dark">Lua</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- Image Modals -->
+<div class="modal fade" id="modal1" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark border-0">
+            <div class="modal-header border-0 pb-0">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body p-2">
+                <img src="~/images/project1.png" class="img-fluid w-100 rounded" alt="Product Review Page">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal2" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark border-0">
+            <div class="modal-header border-0 pb-0">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body p-2">
+                <img src="~/images/project2.png" class="img-fluid w-100 rounded" alt="Gold Clicker Game">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact -->
+<div class="bg-dark text-white py-5" id="contact">
+    <div class="container py-4 text-center">
+        <p class="text-primary text-uppercase fw-bold small mb-2">Get In Touch</p>
+        <h2 class="display-5 fw-bold mb-5">Let's Work Together</h2>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+            <a href="mailto:joshmurphyh2003@icloud.com" class="btn btn-primary btn-lg px-4">Email Me</a>
+            <a href="https://github.com/JMurphy0303" class="btn btn-outline-light btn-lg px-4">GitHub</a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="bg-dark border-top border-secondary py-3 text-center">
+    <span class="text-secondary small">&copy; 2026 Josh Murphy</span>
+</div>
