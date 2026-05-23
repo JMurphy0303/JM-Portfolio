@@ -75,3 +75,4 @@ C:\Users\joshm\Desktop\JM-Portfolio\JoshMurphyPortfolio\obj\Debug\net9.0\refint\
 C:\Users\joshm\Desktop\JM-Portfolio\JoshMurphyPortfolio\obj\Debug\net9.0\JoshMurphyPortfolio.pdb
 C:\Users\joshm\Desktop\JM-Portfolio\JoshMurphyPortfolio\obj\Debug\net9.0\JoshMurphyPortfolio.genruntimeconfig.cache
 C:\Users\joshm\Desktop\JM-Portfolio\JoshMurphyPortfolio\obj\Debug\net9.0\ref\JoshMurphyPortfolio.dll
+C:\Users\joshm\Desktop\JM-Portfolio\JoshMurphyPortfolio\obj\Debug\net9.0\compressed\d5jr3pr3w8-{0}-vrrjka40e8-vrrjka40e8.gz
